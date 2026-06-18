@@ -1,0 +1,8 @@
+scikit-learn
+xgboost
+torch
+fastapi
+uvicorn
+confluent-kafka
+pyspark
+mlflow

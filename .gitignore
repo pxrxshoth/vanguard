@@ -1,0 +1,56 @@
+# Virtual Environments
+venv/
+env/
+.venv/
+vangaurd/
+Include/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Node.js / React Frontend
+dashboard/frontend/node_modules/
+dashboard/frontend/build/
+dashboard/frontend/.env.local
+dashboard/frontend/.env.development.local
+dashboard/frontend/.env.test.local
+dashboard/frontend/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ML Models and Data
+data/raw/
+data/processed/
+data/*.csv
+data/*.txt
+models/*.pth
+models/*.joblib
+models/*.pkl
+mlruns/
+mlflow.db
+*.pt
+*.pth
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE / OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env

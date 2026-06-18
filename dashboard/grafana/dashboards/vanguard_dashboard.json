@@ -1,0 +1,36 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": "-- Grafana --",
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "id": 1,
+  "links": [],
+  "panels": [
+    {
+      "title": "Vanguard Fleet Anomalies",
+      "type": "timeseries",
+      "datasource": "Prometheus",
+      "gridPos": {
+        "h": 9,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "title": "Vanguard IIoT System Status",
+  "uid": "vanguard-dashboard",
+  "version": 1
+}
