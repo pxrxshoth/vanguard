@@ -8,7 +8,7 @@ import joblib
 from pathlib import Path
 import time
 
-base_path = Path("C:/Users/acer/Desktop/Vangaurd")
+base_path = Path(__file__).resolve().parent.parent
 
 data = pd.read_csv(base_path / "data/processed/processed_train_FD001_final.csv")
 exclude_cols = ['unit_number', 'time', 'RUL']

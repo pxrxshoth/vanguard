@@ -1,12 +1,16 @@
 from confluent_kafka import Producer
 import json
 import time
+from pathlib import Path
 
 producer = Producer({
     'bootstrap.servers' : 'localhost:9092'
 })
 
-with open ("data/raw/files/test_FD001.txt") as file:
+base_path = Path(__file__).resolve().parent.parent
+file_path = base_path / "data/raw/files/test_FD001.txt"
+
+with open(file_path) as file:
     for line in file:
         value = line.split()
 
