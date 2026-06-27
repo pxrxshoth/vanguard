@@ -1,11 +1,3 @@
-"""
-evaluate.py - FD001 Model Evaluation Script
-
-Evaluates the XGBoost RUL regressor against the NASA CMAPSS FD001 test set.
-Run from the repository root:
-    python src/evaluate.py
-"""
-
 import pandas as pd
 import numpy as np
 import joblib
